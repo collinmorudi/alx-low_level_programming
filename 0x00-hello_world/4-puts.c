@@ -2,7 +2,7 @@
 
 /**
  * main - prints a simple stirng
- * return: int 0 for success
+ * Return: int 0 for success
  */
 int main(void)
 {
