@@ -1,1 +1,1 @@
-This repository contains basic C practice projects
+#This repository contains basic *C* practice projects
