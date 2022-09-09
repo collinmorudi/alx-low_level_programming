@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- *main - prints numbers 00 to 99 
+ *main - prints all possible combinations 2 digits
  *Return: 0 for success
  */
 
@@ -12,7 +12,7 @@ int main(void)
 
 	for (i = '0'; i <= '9'; i++)
 	{
-		for (j = i+1; j <= '9'; j++)
+		for (j = i + 1; j <= '9'; j++)
 		{
 			putchar(i);
 			putchar(j);
