@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - prints letters of the alphabet
+ * main - prints single digits separated by a comma and a space
  * Return: 0 for success
  */
 int main(void)
