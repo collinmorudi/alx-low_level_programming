@@ -12,7 +12,7 @@ int main(void)
 	{
 		putchar(n);
 
-		if (n < 9)
+		if (n < '9')
 		{
 			putchar(',');
 			putchar(' ');
@@ -20,7 +20,7 @@ int main(void)
 		n++;
 	}
 
-	putchar('9');
+	putchar('\n');
 
 	return (0);
 }
