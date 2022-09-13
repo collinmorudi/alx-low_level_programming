@@ -7,4 +7,7 @@ int _putchar(char c);
 
 void print_alphabet(void);
 
+/* a function that prints 10 times the alphabet, in lowercase, followed by a new line. */
+void print_alphabet_x10(void);
+
 #endif
