@@ -1,6 +1,11 @@
 #include "main.h"
 #include <stdio.h>
 
+/**
+ * main - prints a simple characters to stdio
+ * Return: 0 for success
+ */
+
 int main()
 {
 	putchar('_');
@@ -12,4 +17,6 @@ int main()
 	putchar('a');
 	putchar('r');
 	putchar('\n');
+
+	return (0);
 }
