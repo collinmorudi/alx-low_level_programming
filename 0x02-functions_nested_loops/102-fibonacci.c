@@ -14,12 +14,12 @@ int main(void)
 
 	for (counter = 1; counter <= (max / 2); counter++)
 	{
-		printf("%li %li ", x, y);
+		printf("%li, %li, ", x, y);
 		x += y;
 		y += x;
 	}
 	if (max % 2 == 1)
-		printf("%li", x);
+		printf("%li, ", x);
 
 	printf("\n");
 
