@@ -8,19 +8,19 @@
 int main(void)
 {
 	int counter;
-	int max = 50;
+	int max = 48;
 	long x = 1;
 	long y = 2;
 	long n;
 
-	printf("%li, %li ", x, y);
+	printf("%ld, %ld ", x, y);
 
-	for (counter = 1; counter <= 48; counter++)
+	for (counter = 0; counter < max; counter++)
 	{
 		n = x + y;
 		printf(", %li", n);
-		x += y;
-		y += x;
+		x = y;
+		y = n;
 	}
 
 	printf("\n");
