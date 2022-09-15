@@ -13,7 +13,7 @@ int main(void)
 	long y = 2;
 	long n;
 
-	printf("%ld, %ld ", x, y);
+	printf("%ld, %ld", x, y);
 
 	for (counter = 0; counter < max; counter++)
 	{
