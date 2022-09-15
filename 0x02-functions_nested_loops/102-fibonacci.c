@@ -11,15 +11,17 @@ int main(void)
 	int max = 50;
 	long x = 1;
 	long y = 2;
+	long n;
 
-	for (counter = 1; counter <= (max / 2); counter++)
+	printf("%li, %li ", x, y);
+
+	for (counter = 1; counter <= 48; counter++)
 	{
-		printf("%li, %li, ", x, y);
+		n = x + y;
+		printf(", %li", n);
 		x += y;
 		y += x;
 	}
-	if (max % 2 == 1)
-		printf("%li, ", x);
 
 	printf("\n");
 
