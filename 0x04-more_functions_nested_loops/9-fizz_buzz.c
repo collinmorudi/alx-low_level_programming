@@ -28,11 +28,11 @@ int main(void)
 		{
 			printf("%d", i);
 		}
-
-		i++;
 		
 		if (i < 100)
 			printf(" ");
+
+		i++;
 
 	}
 
