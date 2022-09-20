@@ -10,7 +10,7 @@ int main(void)
 	int random = 0;
         int count = 0;
 	time_t t;
-	int max = 2700; 
+	int max = 2772; 
 
 	srand((unsigned int) time(&t));
 	while (count < max)
