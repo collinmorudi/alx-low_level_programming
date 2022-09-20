@@ -10,7 +10,6 @@ void puts_half(char *str)
 	/* a variable to store length of a string */
 	int len = 0;
 	int min = 0;
-	int count = 0;
 
 	/* compute the length of a string */
 	while (*(str + len) != '\0')
@@ -24,11 +23,8 @@ void puts_half(char *str)
 		min = (len / 2) + 1;
 
 
-	while (count < 3)
-	{
-		_putchar(*(str + min));
-		count++;
-	}
+	for (min++; min < len; min++)
+		_putchar(str[min]);
 
-	_putchar('A');
+	_putchar('\n');
 }
