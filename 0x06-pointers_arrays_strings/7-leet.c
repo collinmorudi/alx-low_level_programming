@@ -22,4 +22,6 @@ char *leet(char *s)
 				s[j] = arr_num[i];
 		}
 	}
+
+	return (s);
 }
