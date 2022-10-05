@@ -9,7 +9,7 @@
 
 char **strtow(char *str)
 {
-	if (str == NULL || str == "")
+	if (str == NULL || *str == "")
 		return (Null);
 	return (NULL);
 }
