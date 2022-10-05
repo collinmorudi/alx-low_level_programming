@@ -25,7 +25,10 @@ char *_strdup(char *str)
 	}
 
 	/* allocate a new memory for the string*/
-	ptr = (char *)malloc(len * sizeof(char));
+	ptr = (char *)malloc(len * sizeof(char) + 1);
+
+	if (ptr == NULL)
+		return (NULL);
 
 	for (i = 0; i < len; i++)
 	{
