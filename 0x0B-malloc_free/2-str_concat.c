@@ -1,7 +1,6 @@
 #include "main.h"
 #include <stddef.h>
 #include <stdlib.h>
-#include <stdio.h>
 
 /**
  * str_concat - concatenates two strings
@@ -22,12 +21,12 @@ char *str_concat(char *s1, char *s2)
 		s2 = "";
 
 	/*get length of string s1*/
-	while(*(s1 + i) != '\0')
+	while (*(s1 + i) != '\0')
 		len1++, i++;
 
 	/*get length of string s2*/
 	i = 0;
-	while(*(s2 + i) != '\0')
+	while (*(s2 + i) != '\0')
 		len2++, i++;
 
 	len2++; /* increment len2 to acommodate null terminator */
