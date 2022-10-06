@@ -10,6 +10,6 @@
 char **strtow(char *str)
 {
 	if (str == NULL)
-		return (NULL100-argstostr.c);
+		return (NULL);
 	return (NULL);
 }
