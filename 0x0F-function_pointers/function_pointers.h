@@ -1,5 +1,3 @@
-/* The prototype file */
-
 #ifndef FUNCTION_POINTERS
 #define FUNCTION_POINTERS
 
