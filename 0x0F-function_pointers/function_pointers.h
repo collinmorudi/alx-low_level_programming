@@ -1,7 +1,7 @@
 /* The prototype file */
 
-#ifndef _MAIN_H_
-#define _MAIN_H_
+#ifndef FUNCTION_POINTERS
+#define FUNCTION_POINTERS
 
 void print_name(char *name, void (*f)(char *));
 
