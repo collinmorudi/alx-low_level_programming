@@ -1,20 +1,29 @@
-#ifndef _MAIN_H_
-#define _MAIN_H_
+#ifndef _LISTS_H_
+#define _LISTS_H_
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h> 
+
+
+typedef struct list_s
+{
+	char *str;
+	unsigned int len;
+	struct list_s *next;
+} list_t;
+
 
 int _putchar(char c);
 
-unsigned int binary_to_uint(const char *b);
+size_t print_list(const list_t *h);
 
-void print_binary(unsigned long int n);
+size_t list_len(const list_t *h);
 
-int get_bit(unsigned long int n, unsigned int index);
+list_t *add_node(list_t **head, const char *str);
 
-int set_bit(unsigned long int *n, unsigned int index);
+list_t *add_node_end(list_t **head, const char *str);
 
-int clear_bit(unsigned long int *n, unsigned int index);
-
-unsigned int flip_bits(unsigned long int n, unsigned long int m);
-
-int get_endianness(void);
+void free_list(list_t *head);
 
 #endif
