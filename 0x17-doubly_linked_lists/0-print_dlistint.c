@@ -1,5 +1,4 @@
 #include "lists.h"
-i
 /**
  * print_dlistint - prints all the data of a doubly linked list
  * @h: pointer to head node of the list
